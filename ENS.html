@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecole Normale Superieur</title>
+	<link rel="icon" type="image/x-icon" href="logo.ico">
+	<link rel="stylesheet" type="text/css" href="ENS.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.loader {
+	  border: 15px solid #f3f3f3;
+	  border-radius: 50%;
+	  border-top: 16px solid #3498db;
+	  width: 50px;
+	  height: 50px;
+	  -webkit-animation: spin 2s linear infinite; /* Safari */
+	  animation: spin 2s linear infinite;
+	}
+	
+	/* Safari */
+	@-webkit-keyframes spin {
+	  0% { -webkit-transform: rotate(0deg); }
+	  100% { -webkit-transform: rotate(360deg); }
+	}
+	
+	@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+	</style>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6d9cda;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+	<header>
+		<div class="topnav" id="myTopnav">
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/Main.html">Acceuil</a>
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/ENS.html" class="active">ENS</a>
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/ENSPY.html">ENSPY</a>
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/FMSB.html">FMSB</a>
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/FACS.html">Fac Science</a>
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/FACL.html">FACL</a>
+			<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/FSE.html">FAC science Educ</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			  <i class="fa fa-bars"></i>
+			</a>
+		  </div>
+		  
+		  <div style="padding-left:16px">
+		   
+		  </div>
+		  
+		  <script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		  </script>
+	</header>
+	<main>
+		<h1>Ecole National Superieur de Yaounde</h1>
+		<p>
+			L'École normale supérieure de Yaoundé (ENS de Yaoundé) est un établissement
+			 d'élite d'enseignement supérieur bilingue (français et anglais) rattaché
+			  à l'université de Yaoundé I au Cameroun et chargé de former des enseignants
+			   et professeurs de lycées et collèges de l'enseignement secondaire général,
+			    des professeurs de l'enseignement normal et des conseillers d’orientation
+				 scolaires et professionnels.
+		</p>
+		<h3>Savoir plus sur L'Ecole Normale Superieur de yaounde</h3>
+		<img src="ENS.jpg">
+		<p>L'École normale supérieure était composée jusqu'en décembre 2010 (date de la création de 
+			l'université de Bamenda à laquelle est désormais rattachée l'annexe de Bambili) d'un 
+			campus principal situé à Yaoundé sur le plateau Ngoa-Ekellé et d'une annexe à Bambili.
+            <br><br>
+			Campus de l'ENS de Yaoundé<br><br>
+			Depuis décembre 2010, l'ENS de Yaoundé ne comprend plus que le campus de Yaoundé. 
+			Elle comprend 2 cycles : le premier dure 3 ans et est ouvert aux titulaires du 
+			baccalauréat, tandis que le second cycle dure 2 ans et est ouvert aux titulaires de licences.
+			<br><br>
+			À l'issue du premier cycle, les lauréats sont professeurs de collège de l'enseignement secondaire
+			 (PCEG) et habilités à enseigner de la 6e en 3e. À l'issue du second cycle, les lauréats sont 
+			 soit professeurs de lycée de l'enseignement secondaire (PLEG) et habilités à enseigner de 
+			 la 6e en Terminale, soit professeurs des écoles normales d'instituteurs, soit conseillers d'orientation.
+			<br><br>
+			En 2006, l'ENS de Yaoundé comptait 3 039 étudiants et l'antenne de Bambili 1,662 étudiants</p>
+	</main>
+	<aside>
+		<h2>Les Autres Ecoles</h2>
+		<div class="post">
+			<img src="ENSPY.jpg">
+			<p><a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/ENSPY.html">
+				L'Ecole Nationale Superieur Polytechnique de Yaoundé.
+			</a></p>
+		</div>
+		<div class="post">
+			<img src="FMSB.jpg">
+			<p>
+				<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/FMSB.html">
+					La Faculté de Medecine et des Sciences Biomedicales de Yaoundé.</a>
+			</p>
+		</div>
+		<div class="post">
+			<img src="FACS.JPG">
+			<p>
+				<a href="file:///C:/Users/KAMTO/Documents/PROJET%20WEB%20HTML%20&%20CSS/FACS.html">
+					La Faculté des Sciences de l'Université de Yaoundé 1</a>
+			</p>
+		</div>
+		<h3>Chargement des differents Ecoles...</h3>
+
+		<div class="loader"></div>
+	</aside>
+</body>
+</html>
